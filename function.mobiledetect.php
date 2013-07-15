@@ -698,7 +698,7 @@ function smarty_cms_help_function_mobiledetect()
 		<pre><code>{mobileswitcher}</code></pre><br />
 		
 		<p>With assign parameter you can assign output of this plugin to a Smarty variable, which can be usefull if you want to apply some special layout around switching link<br />
-			but it does not apply to a desktop device, offcourse you could also simply use <code>{$device->isMobile}</code>, but there are many way ways to skin the cat and there is also<br />
+			but it does not apply to a desktop device, offcourse you could also simply use <code>{$device->isMobile}</code>, but there are many ways to skin the cat and there is also<br />
 			a <code>{$linktext}</code> Smarty variable available which can be usefull if you are using "hrefonly" parameter but still want to be able to control output of link text.
 		</p>
 <pre><code>{mobileswitcher assign='switcher' hrefonly='1' desktoptext='Go to desktop layout' mobiletext='Go to mobile layout'}

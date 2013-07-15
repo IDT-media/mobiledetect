@@ -10,7 +10,7 @@ Description from Mobile_Detect project:
 
 ### How do i use it?
 
-After downloading function.mobiledetect.php file, you should upload it to you CMSMS folder inside "plugins" folder. 
+After downloading function.mobiledetect.php file, you should upload it to your CMSMS folder inside "plugins" folder. 
 After file was uploaded you can simply use it in your Page Template or Page by calling <code>{mobiledetect}</code> Smarty tag.
 Once <code>{mobiledetect}</code> tag has been placed in your Template or Page, various $device Smarty Object attributes will become available.
 With help of these Object attributes you can easily build a Template logic based on detected device.
